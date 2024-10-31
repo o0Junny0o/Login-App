@@ -5,15 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/imagebg_background"
+    android:background="@drawable/bgmain"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/registerButton"
-        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
         android:layout_width="142dp"
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
+        android:backgroundTint="#e8a0bb"
         android:onClick="goToRegister"
         android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,25 +27,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
-        android:text="Bem Vindo!"
+        android:text="Welcome!"
+        android:textColor="#503530"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.20" />
+        app:layout_constraintVertical_bias="0.416" />
 
     <Button
+        android:backgroundTint="#e8a0bb"
         android:id="@+id/loginButton"
-        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
         android:layout_width="142dp"
         android:layout_height="51dp"
         android:onClick="goToLogin"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.30" />
+        app:layout_constraintVertical_bias="0.169" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
