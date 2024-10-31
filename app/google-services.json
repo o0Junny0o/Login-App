@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "746941812695",
+    "project_id": "loginsimples-99623",
+    "storage_bucket": "loginsimples-99623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746941812695:android:4d9f8d1976c6f3772cc592",
+        "android_client_info": {
+          "package_name": "com.example.loginsimples"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrSzVgN2U3HJBgxzt9N2niBwzllxaHNgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
